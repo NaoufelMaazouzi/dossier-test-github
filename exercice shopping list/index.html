@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio Naoufel Maâzouzi</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <main id="main">
+        <div class="col">
+            <h1>Ajouter un item</h1>
+            <input id="produit" placeholder="Nom du produit">
+            <input id="nombre" placeholder="Nombre">
+            <input id="prix" placeholder="Prix">
+            <button onclick="ajouterProduit()">Ajouter</button><br>
+            <span id="error" style="color: red;"></span>
+        </div>
+        <div class="col">
+            <h1>Vos items</h1>
+            <h5>Total : <span id="total"></span>€</h5>
+            <ul id="liste">
+                <!--<li>Produit - Nombre - Prix €</li>-->
+            </ul>
+        </div>
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
